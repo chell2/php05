@@ -19,7 +19,6 @@ if ($status == false) {
 } else {
   $record = $stmt->fetch(PDO::FETCH_ASSOC);
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -58,11 +57,13 @@ if ($status == false) {
 
     a {
       color: blue;
+      text-decoration: none;
+      border-bottom: 1px solid blue;
     }
 
     a:active:visited {
       text-decoration: none;
-      color: blue;
+      border-bottom: 1px solid blue;
     }
 
     a:hover {

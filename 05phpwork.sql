@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- ホスト: localhost
--- 生成日時: 2021 年 7 月 16 日 00:02
+-- 生成日時: 2021 年 7 月 16 日 21:53
 -- サーバのバージョン： 10.4.19-MariaDB
 -- PHP のバージョン: 8.0.7
 
@@ -62,10 +62,11 @@ INSERT INTO `approval_table` (`id`, `user_id`, `doc_id`, `created_at`) VALUES
 (71, 1, 3, '2021-07-16 07:01:48'),
 (72, 1, 6, '2021-07-16 07:01:49'),
 (73, 1, 7, '2021-07-16 07:01:50'),
-(74, 2, 2, '2021-07-16 07:01:58'),
 (75, 2, 4, '2021-07-16 07:01:59'),
-(76, 2, 8, '2021-07-16 07:02:01'),
-(77, 2, 9, '2021-07-16 07:02:02');
+(77, 2, 9, '2021-07-16 07:02:02'),
+(90, 2, 8, '2021-07-17 02:06:04'),
+(107, 2, 2, '2021-07-17 04:29:50'),
+(109, 1, 11, '2021-07-17 04:50:14');
 
 -- --------------------------------------------------------
 
@@ -160,13 +161,13 @@ ALTER TABLE `users_table`
 -- テーブルの AUTO_INCREMENT `approval_table`
 --
 ALTER TABLE `approval_table`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
 
 --
 -- テーブルの AUTO_INCREMENT `document_table`
 --
 ALTER TABLE `document_table`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- テーブルの AUTO_INCREMENT `users_table`
